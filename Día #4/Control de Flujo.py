@@ -23,7 +23,7 @@ if int(edad) >= 18:
 else:
     print('Usted es menor de edad')
 
-
+# Ejercicio #1
 num1 = input("Ingresa un número:")
 num2 = input("Ingresa otro número:")
 
@@ -34,6 +34,7 @@ elif num2 > num1:
 else:
     print(f'{num1}' + ' y ' + f'{num2}' + ' son iguales ')
 
+# Ejercicio #2
 habla_ingles = False
 sabe_python = False
 
@@ -46,6 +47,7 @@ elif habla_ingles == True and sabe_python == False:
 else:
     print('Para postularte, necesitas saber programar en Python y tener conocimientos de inglés')
 
+# Ejercicio #3
 edad = 16
 tiene_licencia = False
 
